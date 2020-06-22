@@ -21,8 +21,9 @@ var specific = {
     },
     devtool: 'eval',
     devServer: {
+	allowedHosts: ['tdo.sgruber.at'],
         hot: true,
-        port: 8088,
+        port: 9797,
         noInfo: false,
         inline: true,
         historyApiFallback: true
