@@ -12,7 +12,7 @@ History.connect(
   "url"
 );
 
-Debug.enable("app-data");
+//Debug.enable("app-data");
 
 startHotAppLoop(module, document.getElementById("app"), store, Routes);
 
